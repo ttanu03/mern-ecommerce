@@ -1,0 +1,14 @@
+/* Custom utility animations and focus states */
+.product-card-transition {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card-transition:hover {
+  transform: translateY(-4px);
+}
+
+/* Custom form focus styling override */
+.form-input-focus:focus {
+  outline: 2px solid #3b82f6; /* blue-500 */
+  outline-offset: 1px;
+}
